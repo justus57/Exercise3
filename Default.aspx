@@ -34,22 +34,22 @@
             <div class="form-group">               
                  Salad: <input type="checkbox" id="salad" runat="server" >
                       <select id="Toppings">
-                          <asp:CheckBox ID="option1" ><option></option><asp:CheckBox />
-                           <asp:CheckBox ID="option2" ><option></option><asp:CheckBox />
-                           <asp:CheckBox ID="option3" ><option></option><asp:CheckBox />
-                     </select><br /><br />
+                          <option></option>
+                           <option></option>
+                           <option></option>
+                         </select><br /><br />
                  Entree: <input type="checkbox" id="Entree" onclick="myFunction()">
                 <select id="Entreechoices">
-                          <asp:CheckBox ID="option1e" ><option></option><asp:CheckBox />
-                           <asp:CheckBox ID="option2e" ><option></option><asp:CheckBox />
-                           <asp:CheckBox ID="option3e" ><option></option><asp:CheckBox />
-                     </select><br /><br />
+                          <option></option>
+                          <option></option>
+                          <option></option>
+                 </select><br /><br />
                  Soup: <input type="checkbox" id="soup" onclick="myFunction()">
                 <select id="Soup">
-                          <asp:CheckBox ID="option1s" ><option></option><asp:CheckBox />
-                           <asp:CheckBox ID="option2s" ><option></option><asp:CheckBox />
-                           <asp:CheckBox ID="option3s" ><option></option><asp:CheckBox />
-                     </select><br /><br />
+                          <option></option>
+                          <option></option>
+                          <option></option>
+                </select><br /><br />
             </div>
           </form>
         </div>

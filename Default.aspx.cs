@@ -27,7 +27,7 @@ namespace Exercise_3
             var movie1 = JsonConvert.DeserializeObject<List<Foodtype>>(File.ReadAllText(@"Data.json"));
             string Foodname1 = movie1[0].name;
             string Foodname2 = movie1[1].name;
-            string Foodname3 = movie1[1].name;
+            string Foodname3 = movie1[2].name;
             string choice1food1 = movie1[0].choices[0].name;
 
             foreach (var element in choice1food1)
